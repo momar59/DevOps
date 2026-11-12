@@ -8,6 +8,8 @@ This project gave me practical experience with cloud infrastructure, Linux serve
 
 **Live website:** https://mohamedomar.dev  *(The EC2 instance will only be kept running when required and may be shut down during periods of inactivity to minimise cloud expenditure)*
 
+
+
 <img width="1920" height="977" alt="my webpage hosted on ec2" src="https://github.com/user-attachments/assets/800fdab9-14fd-4abe-8020-0559cfb5e5fa" />
 
 
