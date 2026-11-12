@@ -33,10 +33,10 @@ I started by creating an EC2 instance through the AWS Management Console.
 
 I selected:
 - Name as 'Website-server-prod'
-- Ubuntu Server as the operating system.
-- A t3.micro instance.
-- A key pair to securely access the server through SSH.
-- A security group to control inbound network traffic.
+- Ubuntu Server as the operating system
+- A t3.micro instance
+- A key pair to securely access the server through SSH
+- A security group to control inbound network traffic
 
 After launching the instance, I noted its public IPv4 address, which I later used to configure my domain's DNS records.
 
@@ -112,6 +112,7 @@ To confirm that the web server was working, I visited the EC2 public IPv4 addres
 <img width="1566" height="270" alt="nginx welcome page" src="https://github.com/user-attachments/assets/f088f0b8-ba86-4104-b1ea-af3c705cb035" />
 
 
+
 ## 5. Purchasing and Configuring My Custom Domain Through Cloudflare
 
 I used Cloudflare to purchase and manage my custom domain:
@@ -177,11 +178,11 @@ sudo certbot --nginx -d mohamedomar.dev -d www.mohamedomar.dev
 ```
 
 Certbot successfully:
-- Verified ownership of both domain names.
-- Obtained a certificate from Let's Encrypt.
-- Installed the certificate into the Nginx configuration.
-- Configured HTTPS support.
-- Set up automatic certificate renewal.
+- Verified ownership of both domain names
+- Obtained a certificate from Let's Encrypt
+- Installed the certificate into the Nginx configuration
+- Configured HTTPS support
+- Set up automatic certificate renewal
 
 The certificate covers both `mohamedomar.dev` and `www.mohamedomar.dev`.
 
@@ -242,15 +243,15 @@ I successfully deployed my personal website using an AWS EC2 instance and Nginx,
 
 The completed project demonstrated how I could:
 
-- Provision and manage a cloud-based Linux server.
-- Configure AWS EC2 security groups.
-- Connect to a remote Ubuntu server using SSH.
-- Install and manage Nginx.
-- Configure DNS records through Cloudflare.
-- Connect a custom domain to an EC2 public IP address.
-- Obtain and install an SSL/TLS certificate.
-- Configure HTTPS and Cloudflare SSL/TLS settings.
-- Customise and publish a website using HTML and CSS.
+- Provision and manage a cloud-based Linux server
+- Configure AWS EC2 security groups
+- Connect to a remote Ubuntu server using SSH
+- Install and manage Nginx
+- Configure DNS records through Cloudflare
+- Connect a custom domain to an EC2 public IP address
+- Obtain and install an SSL/TLS certificate
+- Configure HTTPS and Cloudflare SSL/TLS settings
+- Customise and publish a website using HTML and CSS
 
 ## 12. What I Learned
 
