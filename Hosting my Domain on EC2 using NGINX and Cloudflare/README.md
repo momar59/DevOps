@@ -10,6 +10,8 @@ This project gave me practical experience with cloud infrastructure, Linux serve
 
 
 
+
+
 <img width="1920" height="977" alt="my webpage hosted on ec2" src="https://github.com/user-attachments/assets/800fdab9-14fd-4abe-8020-0559cfb5e5fa" />
 
 
